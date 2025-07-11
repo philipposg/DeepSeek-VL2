@@ -29,6 +29,10 @@ share/python-wheels/
 MANIFEST
 *.whl
 
+ven/
+venv/
+venv2/
+
 # PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
@@ -128,10 +132,19 @@ celerybeat.pid
 .env
 .venv
 env/
+.ven/
+.venv/
+.venv2/
+ven/
 venv/
+venv2/
 ENV/
 env.bak/
 venv.bak/
+
+deepseek_vl2/ven/
+deepseek_vl2/venv/
+deepseek_vl2/venv2/
 
 # Spyder project settings
 .spyderproject
